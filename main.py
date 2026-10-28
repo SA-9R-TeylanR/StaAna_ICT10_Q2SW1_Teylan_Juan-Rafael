@@ -18,8 +18,8 @@ def add_member(event):
     is_member = full_name in members
 
     messages = [
-        "Sorry " + full_name + ", your name is not on the list.",
-        "Congratulations " + full_name + "! You are now part of the ICT club."
+     "Sorry " + full_name + ", your name is not registered in the list. Please double check and try again.",
+     "Have a great time, " + full_name + "! Welcome Home. "
     ]
 
     document.getElementById("output").innerText = messages[is_member]
